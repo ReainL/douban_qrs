@@ -15,10 +15,10 @@ SPIDER_MODULES = ['douban_qrs.spiders']
 NEWSPIDER_MODULE = 'douban_qrs.spiders'
 
 # Postgresql数据库配置信息
-host = '10.130.38.35'
+host = '10.130.88.88'
 database = 'pythondb'
-user = 'xsl'
-password = 'xsl'
+user = '123'
+password = '123'
 port = 5432
 DBType = 'PostgreSQL'
 
