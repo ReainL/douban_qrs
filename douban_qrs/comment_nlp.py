@@ -54,7 +54,7 @@ def word_cloud(comment):
     image_colors = ImageColorGenerator(back_coloring)
     plt.figure("wordc")
     plt.imshow(wc.recolor(color_func=image_colors))
-    wc.to_file('微博评论词云图.png')
+    wc.to_file('前任三词云图.png')
 
 
 def snowlp_analysis(comment):
